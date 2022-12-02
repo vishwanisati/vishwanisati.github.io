@@ -1,0 +1,211 @@
+/* Hero Section Styling */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero div {
+  max-width: 500px;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+.hero img {
+  margin-top: 100px;
+}
+.hero div h1 {
+  font-weight: 400;
+  font-size: 30px;
+}
+/* About Section Styling */
+.about .bio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .textContainer {
+  background: #eafff2;
+  max-width: 600px;
+  padding: 50px;
+  text-align: justify;
+}
+.about .textContainer .readMore {
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+/* Skills Section Styling */
+.skills .skillsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  align-items: center;
+}
+.skills .skill {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.3);
+}
+/* Experience Section Styling */
+.experience .experienceCards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.experience .experienceCards .experienceCard {
+  max-width: 300px;
+  padding: 8px 50px 8px 50px;
+  background: rgba(54, 124, 255, 0.1);
+}
+.experience .experienceText {
+  font-size: 18px;
+  font-weight: 300;
+}
+.experience .bold {
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+/* Work Section Styling */
+.work .workCards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.workCards .workCard {
+  background: rgba(232, 228, 255, 0.5);
+  padding: 0px 30px;
+}
+.workCard .workText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.workText .workNumber {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.75);
+}
+.workText .workName {
+  font-weight: 500;
+  font-size: 25px;
+}
+.workText .workSkill {
+  font-weight: 400;
+  font-size: 20px;
+}
+.workCard .workDescription {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: justify;
+}
+.workCard .workDesc {
+  font-weight: 500;
+}
+/* Contact */
+.contact {
+  padding-bottom: 80px;
+}
+.contact .contactInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personalInfos .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.personalInfos .info p {
+  font-weight: 300;
+  font-size: 20px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactForm .input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactForm .smallFields {
+  display: flex;
+  gap: 20px;
+}
+.contactForm .textarea {
+  display: flex;
+  flex-direction: column;
+}
+.contactForm .textarea textarea {
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  padding: 10px;
+}
+.contactForm .input input {
+  padding: 10px;
+  font-size: 16px;
+}
+.contactForm button {
+  width: fit-content;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background: #367cff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* Responsive Media Query */
+@media only screen and (max-width: 1200px) {
+  .experienceCards {
+    grid-template-columns: auto auto;
+  }
+  .contactInfoContainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .about .textContainer {
+    text-align: left;
+  }
+  .skillsContainer {
+    grid-template-columns: auto auto;
+  }
+  .experienceCard {
+    padding: 10px;
+    grid-template-columns: auto;
+  }
+  .experienceCards {
+    grid-template-columns: auto;
+  }
+  .workName {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .workSkill {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .workDescription {
+    flex-direction: column;
+    text-align: start;
+  }
+  .smallFields {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about .textContainer {
+    text-align: left;
+  }
+  .skillsContainer {
+    grid-template-columns: auto;
+  }
+}

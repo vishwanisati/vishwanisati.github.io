@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Logo -->
+      <a href="/">
+        <span style="border-bottom: 1px solid #367cff" class="logo"
+          >Vishwani Sati</span
+        ></a
+      >
+      <!-- Header Navigation -->
+      <ul>
+        <a href="#about"> <li>About</li> </a
+        ><a href="#work"> <li>Work</li> </a
+        ><a href="/resume.html"> <li>Resume</li> </a
+        ><a href="#contact">
+          <li><button>Contact Me</button></li>
+        </a>
+      </ul>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div data-aos="fade-right">
+        <h1>Hello, I am a graduate student!</h1>
+        <p class="text">
+          I'm a second-year Master's student at Northwestern University. I am majoring in Computer Science, and am passionate about all things Machine Learning.
+        </p>
+      </div>
+      <img
+        data-aos="fade-left"
+        class="responsiveImg"
+        src="/assets/illustrations/home.svg"
+        alt=""
+      />
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h1 class="heading">About me</h1>
+      <main class="bio">
+        <img
+          data-aos="fade-up"
+          class="responsiveImg"
+          src="/assets/illustrations/about.svg"
+          alt=""
+        />
+        <div data-aos="fade-up" class="textContainer">
+          <p class="text">
+            I am a graduate student at Northwestern University, majoring in Computer Science. I completed my undergraduate in Computer Science and Engineering from Amity University, India. My research interests are in Information Retrieval, Data Science, Artificial Intelligence, and all things Machine Learning. During this summer, I interned at Amazon as a Software Development Engineer. I worked in the AWS organization at East Palo Alto, where I worked on developing auroracr (a wrapper tool which executes Dry Run Build commands to build mentioned packages into custom and corresponding version sets (while supporting the existing CodeReview tool functionalities) and vended it to the BuilderToolBox. Post graduating from Northwestern, I will returning to Amazon as a Software Development Engineer.
+          </p>
+          <a href="/about.html">
+            <span class="readMore"
+              >Read More
+              <img
+                src="/assets//icons/right-arrow.svg"
+                alt="right arrow" /></span
+          ></a>
+        </div>
+      </main>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="subHeader">
+        <h1 data-aos="fade-right" class="heading">Interests</h1>
+        <img
+          data-aos="fade-left"
+          class="responsiveImg"
+          src="./assets/illustrations/skills.svg"
+          alt="skills"
+        />
+      </div>
+      <main class="skillsContainer">
+        <h3 data-aos="fade-up-right" class="skill">Machine learning</h3>
+        <h3 data-aos="fade-up" class="skill">Information Retreival</h3>
+        <h3 data-aos="fade-up-left" class="skill">Internet of Things</h3>
+        <h3 data-aos="fade-up-right" class="skill">Full-stack Development</h3>
+        <h3 data-aos="fade-up" class="skill">Artificial intelligence</h3>
+        <h3 data-aos="fade-up-left" class="skill">Big Data</h3>
+      </main>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="subHeader">
+        <h1 data-aos="fade-right" class="heading">Experience</h1>
+        <img
+          data-aos="fade-left"
+          class="responsiveImg"
+          src="./assets/illustrations/experience.svg"
+          alt="experience"
+        />
+      </div>
+      <div class="experienceCards">
+        <!-- Experience One -->
+        <div data-aos="fade-up-right" class="experienceCard">
+          <p class="bold">Jun 2022 - Sep 2022</p>
+          <p class="experienceText">
+            <span class="bold">Title - </span>
+            Software Development Engineer Intern, AWS Aurora
+          </p>
+          <p class="experienceText"><span class="bold">Company - </span> Amazon</p>
+        </div>
+        <!-- Experience Two -->
+        <div data-aos="fade-up" class="experienceCard">
+          <p class="bold">Jan 2022 - Jun 2022</p>
+          <p class="experienceText">
+            <span class="bold">Title - </span>Graduate Teaching Assistant
+          </p>
+          <p class="experienceText">
+            <span class="bold">Company - </span> Northwestern University
+          </p>
+        </div>
+        <!-- Experience Three -->
+        <div data-aos="fade-up-left" class="experienceCard">
+          <p class="bold">Sep 2020 - Jun 2021</p>
+          <p class="experienceText">
+            <span class="bold">Title - </span>Technical Engineer
+          </p>
+          <p class="experienceText"><span class="bold">Company - </span> VMware</p>
+        </div>
+      </div>
+    </section>
+    <!-- Work Section -->
+    <section id="work" class="work">
+      <div class="subHeader">
+        <h1 data-aos="fade-right" class="heading">My Projects</h1>
+        <img
+          data-aos="fade-left"
+          class="responsiveImg"
+          src="./assets/illustrations/work.svg"
+          alt="work"
+        />
+      </div>
+      <div class="workCards">
+        <!-- First Project Card -->
+        <main data-aos="fade-up" class="workCard">
+          <div class="workText">
+            <h1 class="workNumber">1</h1>
+            <a href="/project-one.html">
+              <img src="/assets//icons/open-in-new.svg" alt="open-in-new" />
+            </a>
+          </div>
+          <div class="workText">
+            <h4 class="workName">Face Detection and Face Emotion Recognition through NVIDIA Jetson Nano</h4>
+            <p class="workSkill">Computer Vision, ML</p>
+          </div>
+          <div class="workDescription">
+            <img
+              class="workImg"
+              src="/assets//images/project-one.jpg"
+              alt="open-in-new"
+            />
+            <div class="text">
+              <span class="workDesc">Description</span>
+              <p>
+                This project focuses on implementing face detection, face recognition and face emotion recognition through NVIDIA’s state-of-the-art Jetson Nano. Face detection is implemented using OpenCV’s deep learning-based DNN face detector, supported by a ResNet architecture, for achieving better accuracy than the previously developed models.
+              </p>
+            </div>
+          </div>
+        </main>
+        <!-- Second Project Card -->
+        <main data-aos="fade-up" class="workCard">
+          <div class="workText">
+            <h1 class="workNumber">2</h1>
+            <a href="/project-two.html">
+              <img src="/assets//icons/open-in-new.svg" alt="open-in-new" />
+            </a>
+          </div>
+          <div class="workText">
+            <h4 class="workName">Smart PPE for Occupational Hazard Prevention</h4>
+            <p class="workSkill">Artificial intelligence</p>
+          </div>
+          <div class="workDescription">
+            <img
+              class="workImg"
+              src="/assets//images/project-two.jpg"
+              alt="open-in-new"
+            />
+            <div class="text">
+              <span class="workDesc">Description</span>
+              <p>
+                Wearable technologies have begun to play animportant role in the workplace. This project presents a Smart PPE (Personal Protective Equipment) solution which employs a sensor network located on a helmet and a belt to monitor the state of the worker and the environment. The model implements continuous risk monitoring biometrics of the worker, detects the external impact, shock, luminosity, gases, temperature of the environment and provides real-time recommendations to workers.
+              </p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="subHeader">
+        <h1 data-aos="fade-right" class="heading">Contact me</h1>
+        <img
+          data-aos="fade-left"
+          class="responsiveImg"
+          src="./assets/illustrations/contact.svg"
+          alt="contact"
+        />
+      </div>
+      <main class="contactInfoContainer">
+        <!-- Personal information's -->
+        <div class="personalInfos">
+          <div data-aos="fade-right" class="info">
+            <img src="/assets//icons/phone.svg" alt="phone" />
+            <p>+1 (872) 806-6879</p>
+          </div>
+          <div data-aos="fade-right" class="info">
+            <img src="/assets//icons/mail.svg" alt="mail" />
+            <p>vishwani.sati@gmail.com</p>
+          </div>
+          <div data-aos="fade-right" class="info">
+            <img src="/assets//icons/message.svg" alt="message" />
+            <p>@vishwanisati</p>
+          </div>
+        </div>
+        <!-- Contact Form -->
+        <div data-aos="fade-left" class="contactForm">
+          <div class="smallFields">
+            <div class="input">
+              <label for="name">Name*</label>
+              <input type="text" placeholder="Your Name..." />
+            </div>
+            <div class="input">
+              <label for="email">Email*</label>
+              <input type="text" placeholder="Your Email..." />
+            </div>
+          </div>
+          <div class="textarea">
+            <label for="message">Message*</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Your Message..."
+            ></textarea>
+          </div>
+          <button>Submit</button>
+        </div>
+      </main>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <img
+        data-aos="fade-up"
+        class="responsiveImg"
+        src="./assets//illustrations/thank-you.svg"
+        alt="Thank You"
+      />
+      <main data-aos="fade-up">
+        <h2>
+          Thank-you for visiting.<br />Looking forward to connecting with you.
+        </h2>
+        <p>© 2022 Portfolio Project. All rights reserved.</p>
+      </main>
+      <!-- Footer Navigation -->
+      <ul data-aos="fade-up">
+        <a href="#about"><li>About</li></a
+        ><a href="#work"><li>Work</li></a
+        ><a href="/resume.html"><li>Resume</li></a
+        ><a href="#contact">
+          <li>Contact Me</li>
+        </a>
+      </ul>
+    </footer>
+  </body>
+  <!-- Animation Scripts and initialization-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
